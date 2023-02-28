@@ -46,7 +46,7 @@ public class PostRequest extends TestConfig {
         .when()
                 .post()
         .then()
-                .statusCode(200);                                  // po dokumentaciji ocekujem 200 a ne 201
+                .statusCode(200);
     }
 
     //3. Create a booking and assert that the response returns payload in the right format.
